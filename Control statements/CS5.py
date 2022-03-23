@@ -40,12 +40,12 @@ courses = {
 
 
 def when_offered(courses, course):
-    # TODO: Fill out the function here.
+    #  Fill out the function here.
     list_of_semesters = []
     for semester in courses:
         if course in courses[semester]:
             list_of_semesters.append(semester)
-    # TODO: Return list of semesters here.
+    #  Return list of semesters here.
     return list_of_semesters
 
 
